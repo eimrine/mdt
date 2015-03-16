@@ -1,3 +1,1 @@
-(function {
-    if ($(".task-completed").css("display")==="block"){$("#next-lab")[0].click();}
-}());
+$(function(){if ($(".task-completed").css("display")==="block"){$("#next-lab")[0].click();}})
